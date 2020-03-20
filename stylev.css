@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+
+header {
+    background-image: url("CameraLens.jpg");
+    height: 100vh;
+    background-image: cover;
+    background-position: top;
+  }
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border: 1px solid white;
+    transition: 0.6s ease;
+}
+
+ul li a:hover{
+    background-color: red;
+    color: white;
+}
+
+video{
+    margin-left: 25px;
+    margin-top: 55px;
+    height: auto;
+    width: 50vh;
+}
+
+h1{
+    margin-left: 25px;
+    margin-top: 0px;
+    height: auto;
+    width: 100vh;
+    color: white;
+}
